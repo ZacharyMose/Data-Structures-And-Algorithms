@@ -6,4 +6,7 @@ def contains_duplicate(nums):
         seen.add(num)
     return False
 
-print(contains_duplicate([1,2,3,1]))
+
+
+if __name__ == "__main__":
+    print(contains_duplicate([1, 2, 3, 4, 5]))  # Output: False
